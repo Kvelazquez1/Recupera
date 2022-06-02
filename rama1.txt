@@ -1,0 +1,48 @@
+git clone LINK
+
+
+git branch
+
+git branch A
+
+git branch B
+
+git checkout A
+
+gid add A.txt
+
+git commit -m "Mod. A"
+
+git checkout B
+
+gid add B.txt
+
+git commit -m "Mod. B"
+
+git status
+
+git add B.txt
+
+git commit -m "mod. B v2"
+
+git checkout main
+
+git push -u origin B
+
+git status
+
+git add main.txt
+
+git commit -m "Mod. main"
+
+git checkout B
+
+git merge A
+
+git commit -m "Mod. AB"
+
+git checkout main
+
+git push
+
+git checkout B
